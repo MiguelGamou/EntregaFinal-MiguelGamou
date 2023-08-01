@@ -1,0 +1,401 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{ font-family: 'Roboto', sans-serif;}
+
+h1{font-size: 3.5em;}
+
+h2{font-size: 2.7em;}
+
+h3{font-size: 2em;}
+
+p{font-size: 1.25em;}
+
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0.5);
+    color: white;
+    background-color: #14a3dd;
+}
+
+.btn-color{
+    background-color: #14a3dd;
+    color: white;
+}
+
+.btn-color:hover{
+    background-color: #098cc4;
+}
+
+.bg-form-color{
+    background-color: #8bc3da;
+}
+
+button:hover{
+    background-color: #1585b1;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #14a3dd;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: #1585b1;
+}
+
+.color-iniciar{
+    color: #14a3dd;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+    margin-top: 20px;
+}
+
+.color-acento{
+    color: #14a3dd;
+}
+
+#sobre-nosotros .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-servicios{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-servicios .container{
+    padding: 150px 12px;
+}
+
+#nuestros-servicios h2{
+    margin-top: 0;
+}
+
+#nuestros-servicios h3{
+    font-weight: bold;
+}
+
+#nuestros-servicios button{
+    margin-top: 20px;
+}
+
+#nuestros-servicios p{
+    display: none;
+}
+
+#nuestros-servicios .carta{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/implante.png");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/ortodoncia.png")
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/blanqueamiento.png");
+}
+
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/protesis.png");
+}
+
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/limpiezadental.png");
+}
+
+.carta:last-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/endodoncia.png");   
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#reserva-tu-cita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#reserva-tu-cita h2{
+    font-size: 9vw;
+}
+
+#reserva-tu-cita button{
+    margin-top: 30px;
+    font-size: 4vw;
+}
+
+.color-formulario{
+    background-color: #84c2da;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales img{
+    height: 70px;
+    margin-left: 5px;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: rgb(220,220,220);
+}
+
+footer p{
+    padding: 12px;
+    color: gray
+}
+
+footer .container{
+    display: flex;
+    height: 110px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 991px){
+
+    header{
+        position: top;
+        width: 100%;
+        background-color: rgb(220,220,220);
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    .nav-hover li:hover{
+        background-color: #14a3dd;
+        color: white;
+    }
+
+    #sobre-nosotros .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #sobre-nosotros .informacion{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        max-width: 500px;
+        text-align: initial;
+        padding: 0px 50px;
+        font-size: 1.2em;
+    }
+
+    #sobre-nosotros .img-container{
+        background-image: url("../img/sobrenosotros.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 600px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-gap: 20px; 
+      }
+
+    #nuestros-servicios p{
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    #nuestros-servicios h3{
+        margin-top: 0;
+    }
+
+    .carta {
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    #caracteristicas{
+        background-image: url("../img/imgprueba.png");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    #caracteristicas .container{
+        text-align: initial;
+    }
+
+    #caracteristicas ul{
+        margin-left: 100px;
+    }
+
+    #reserva-tu-cita h2{
+        font-size: 5em;
+    }
+
+    #reserva-tu-cita button{
+        font-size: 3em;
+    }
+
+    .color-iniciar{
+        color: #14a3dd;
+    }
+    
+}
+
+@media (min-width: 1200px){
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+}
+
+
+
