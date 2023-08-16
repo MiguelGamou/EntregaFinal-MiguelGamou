@@ -12,9 +12,10 @@
   <link rel="stylesheet" href="../css/estilos.css">
   <!-- Favicon -->
   <link rel="shortcut icon" href="../img/logotipo.png" type="image/x-icon">
+  <meta name="description" content="Simplifica tu búsqueda de respuestas: Envía tu consulta en tan solo 1 click. Nuestro equipo está listo para brindarte soluciones rápidas y precisas para tus inquietudes. Tu bienestar es nuestra prioridad.">
 </head>
 
-<body>
+<body class="color-fondo">
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -38,38 +39,79 @@
   </header>
 
   <main>
-    <section class="contacto d-flex mx-auto mt-4 text-center shadow">
-      <div class="container p-5">
-        <h2 class="mb-4">Consulta tus dudas</h2>
+    <!-- <section class="d-flex mx-auto mt-4 text-center shadow"> BORRAR DEL CODIGO LUEGO
+      
+        <div class="container p-5">
+          <h2 class="mb-4">Consulta tus dudas</h2>
+          <form>
+            <div>
+              <input class="text-center w-75 rounded m-3 p-2 border-0 shadow" type="text" id="nombre" name="nombre"
+                required placeholder="Nombre">
+            </div>
+            <div>
+              <input class="text-center w-75 rounded m-3 p-2 border-0 shadow" type="text" id="email" name="email" required
+                placeholder="E-Mail">
+            </div>
+            <div class="mx-auto w-75 rounded m-3">
+              <textarea class="text-center rounded border-0 shadow w-100" name="message" rows="3"
+                placeholder="Escriba su mensaje" required></textarea>
+            </div>
+            <div class="m-4">
+              <button type="submit" class=" btn-light btn-lg">Envia tu consulta</button>
+            </div>
+          </form>
+        </div>
+          <div class="color-formulario d-flex justify-content-center flex-column align-items-center">
+            <h2>Contactanos</h2>
+            <img src="../img/direccion.png" alt="ícono de ubicación">
+            <p>Direccion de prueba</p>
+            <img src="../img/telefono.png" alt="ícono de teléfono">
+            <p>+598 098 12 12 12</p>
+            <img src="../img/email.png" alt="Ícono de e-mail">
+            <p>ejemplo@plusdentaluruguay.com</p>
+            <p class="m-5">Reserva tu consulta o sugerencia que tengas, y te responderemos a la brevedad</p>
+          </div>
+    </section> -->
 
-        <form>
-          <div>
-            <input class="text-center w-75 rounded m-3 p-2 border-0 shadow" type="text" id="nombre" name="nombre"
-              required placeholder="Nombre">
+    <section class="d-flex mx-auto mt-4 text-center shadow">
+      <div class="container-lg d-flex flex-column flex-lg-row align-items-center justify-content-between p-5">
+        <div class="w-100 w-lg-50 mb-4 mb-lg-0">
+          <h2 class="mb-4">Consulta tus dudas</h2>
+          <form>
+            <div>
+              <input class="text-center w-75 rounded m-3 p-2 border-0 shadow" type="text" id="nombre" name="nombre"
+                required placeholder="Nombre">
+            </div>
+            <div>
+              <input class="text-center w-75 rounded m-3 p-2 border-0 shadow" type="text" id="email" name="email" required
+                placeholder="E-Mail">
+            </div>
+            <div class="mx-auto w-75 rounded m-3">
+              <textarea class="text-center rounded border-0 shadow w-100" name="message" rows="3"
+                placeholder="Escriba su mensaje" required></textarea>
+            </div>
+            <div class="m-4">
+              <button type="submit" class=" btn-light btn-lg">Envia tu consulta</button>
+            </div>
+            <!-- Campos del formulario aquí -->
+          </form>
+        </div>
+        <div class="color-formulario d-flex flex-column align-items-center">
+          <h2>Contactanos</h2>
+          <div class="mb-3">
+            <img src="../img/direccion.png" alt="ícono de ubicación">
+            <p>Dirección de prueba</p>
           </div>
-          <div>
-            <input class="text-center w-75 rounded m-3 p-2 border-0 shadow" type="text" id="email" name="email" required
-              placeholder="E-Mail">
+          <div class="mb-3">
+            <img src="../img/telefono.png" alt="ícono de teléfono">
+            <p>+598 098 12 12 12</p>
           </div>
-          <div class="mx-auto w-75 rounded m-3">
-            <textarea class="text-center rounded border-0 shadow w-100" name="message" rows="3"
-              placeholder="Escriba su mensaje" required></textarea>
+          <div class="mb-3">
+            <img src="../img/email.png" alt="Ícono de e-mail">
+            <p>ejemplo@plusdentaluruguay.com</p>
           </div>
-          <div class="m-4">
-            <button type="submit" class=" btn-light btn-lg">Envia tu consulta</button>
-          </div>
-        </form>
-      </div>
-
-      <div class="color-formulario d-flex justify-content-center flex-column align-items-center">
-        <h2>Contactanos</h2>
-        <img src="../img/direccion.png" alt="ícono de ubicación">
-        <p>Direccion de prueba</p>
-        <img src="../img/telefono.png" alt="ícono de teléfono">
-        <p>+598 098 12 12 12</p>
-        <img src="../img/email.png" alt="Ícono de e-mail">
-        <p>ejemplo@plusdentaluruguay.com</p>
-        <p class="m-5">Reserva tu consulta o sugerencia que tengas, y te responderemos a la brevedad</p>
+          <p class="m-5">Reserva tu consulta o sugerencia que tengas, y te responderemos a la brevedad</p>
+        </div>
       </div>
     </section>
 

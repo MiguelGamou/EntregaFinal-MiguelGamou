@@ -12,6 +12,10 @@
     <link rel="shortcut icon" href="img/logotipo.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilos.css">
+    <meta name="description" content="Descubre la excelencia en cuidado dental en nuestro espacio: El mejor lugar para atender la salud de tus dientes. Experimenta atención experta y tecnología avanzada para lograr tu sonrisa ideal.">
+    <meta name="keywords" content="DIENTES, DENTAL, ARREGLOSDENTALES, ODONTOLOGIA, CONSULTORIOODONTOLOGICO">
+    <!-- ANIMACIONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -45,15 +49,15 @@
             </div>
         </nav>
     </header>
-    <!-- Los saltos de linea en la etiqueta li y la etiqueta a me los hace automaticamente cuando le doy formato al documento -->
 
     <section id="hero">
-        <h1>Tu sonrisa al <br>siguiente nivel</h1>
-        <a href="html/reservatucita.html"><button>AGENDATE YA!</button></a> 
+        <h1 class="animate__animated animate__backInDown ">Tu sonrisa al <br>siguiente nivel</h1>
+        <a href="html/reservatucita.html"><button onclick="console.log('SOY UN PUTO NAZI')">AGENDATE YA!</button></a> 
     </section>
 
+    <!-- La imagen que se utiliza en esta area se deja aproposito de la manera que esta, ya que quiero que no aparezca en vista mobile pero en desktop si  -->
     <section id="sobre-nosotros">
-        <div class="container">
+        <div class="container color-fondo">
             <div class="img-container"></div>
             <div class="informacion">
                 <h2>Sobre <span class="color-acento">Nosotros</span></h2>
@@ -65,30 +69,30 @@
     <main>
         <section id="nuestros-servicios">
             <div class="container">
-                <h2>Nuestros Servicios</h2>
+                <h2 class="animate__animated animate__heartBeat">Nuestros Servicios</h2>
                 <div class="servicios">
                     <div class="carta">
-                        <h3>Implantes</h3>
+                        <h3 class="diseñoh3">Implantes</h3>
                         <a href="html/tratamientos.html"><button>+ Info</button></a>
                     </div>
                     <div class="carta">
-                        <h3>Ortodoncia</h3>
+                        <h3 class="diseñoh3">Ortodoncia</h3>
                         <a href="html/tratamientos.html"><button>+ Info</button></a>
                     </div>
                     <div class="carta">
-                        <h3>Blanqueamiento</h3>
+                        <h3 class="diseñoh3">Blanqueamiento</h3>
                         <a href="html/tratamientos.html"><button>+ Info</button></a>
                     </div>
                     <div class="carta">
-                        <h3>Protesis</h3>
+                        <h3 class="diseñoh3">Protesis</h3>
                         <a href="html/tratamientos.html"><button>+ Info</button></a>
                     </div>
                     <div class="carta">
-                        <h3>Limpieza Dental</h3>
+                        <h3 class="diseñoh3">Limpieza Dental</h3>
                         <a href="html/tratamientos.html"><button>+ Info</button></a>
                     </div>
                     <div class="carta">
-                        <h3>Endodoncia</h3>
+                        <h3 class="diseñoh3">Endodoncia</h3>
                         <a href="html/tratamientos.html"><button>+ Info</button></a>
                     </div>
                 </div>
@@ -97,18 +101,19 @@
     </main>
 
     <section id="caracteristicas">
-        <div class="container">
+        <div class="container color-fondo container-img">
             <ul>
                 <li>🦷 Personal capacitado</li>
                 <li>🦷 Dedicación</li>
                 <li>🦷 Integridad</li>
                 <li>🦷 Adaptabilidad</li>
             </ul>
+            <img class="img-caracteristicas" src="img/imgprueba.png" alt="Imagen chequeo dental">
         </div>
     </section>
 
     <section id="reserva-tu-cita">
-        <h2>Deslumbra a todos con tu sonrisa</h2>
+        <h2 class="animate__animated animate__fadeInUp"><span class="color-acento2">Deslumbra</span> a todos con tu sonrisa</h2>
         <a href="html/reservatucita.html"><button>Reserva tu cita!</button></a>
     </section>
 

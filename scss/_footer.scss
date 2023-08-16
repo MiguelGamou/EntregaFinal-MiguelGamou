@@ -1,0 +1,16 @@
+
+footer {
+    background-color: rgb(220, 220, 220);
+
+    p {
+        padding: 12px;
+        color: gray;
+    }
+
+    .container {
+        display: flex;
+        height: 110px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
