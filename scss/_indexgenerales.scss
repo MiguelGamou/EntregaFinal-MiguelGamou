@@ -1,4 +1,4 @@
-
+/* ESTILOS GENERALES DEL INDEX*/
 body {
     font-family: 'Roboto', sans-serif;
 
@@ -27,6 +27,8 @@ li {
 }
 }
 
+/* Boton */
+
 button {
     font-size: 1.5em;
     font-weight: bold;
@@ -37,7 +39,7 @@ button {
     color: white;
     background-color: #14a3dd;
 
-    &.btn-color {
+    .btn-color {
         background-color: #14a3dd;
         color: white;
 
@@ -46,7 +48,7 @@ button {
         }
     }
 
-    &.bg-form-color {
+    .bg-form-color {
         background-color: #8bc3da;
     }
 
@@ -198,6 +200,7 @@ button {
     text-align: center; 
     background-color: lightgray; 
     padding: 20px;
+    justify-content: center;
 
 
 .img-caracteristicas {

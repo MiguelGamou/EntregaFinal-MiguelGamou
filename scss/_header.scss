@@ -1,3 +1,4 @@
+/* HEADER - NavBar */
 
 header {
     background-color: rgb(245, 245, 245);
@@ -9,19 +10,16 @@ header {
         color: #14a3dd;
         font-size: 1.6em;
 
-
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
-
 
             nav {
                 display: flex;
                 flex-direction: column;
                 text-align: center;
                 padding-bottom: 25px;
-
 
                 a {
                     padding: 5px 12px;
@@ -37,4 +35,8 @@ header {
             }
         }
     }
+}
+
+.nav-derecha {
+    text-align: right;
 }
